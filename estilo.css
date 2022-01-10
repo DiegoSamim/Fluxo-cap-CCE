@@ -10,9 +10,9 @@ body {
 .azul {
     display: flex;
     flex-direction: column;
-	width: 300px;
+	width: 330px;
 	background-color: #fff;
-	height: 70%;
+	height: 623px;
 	border-right: 1px solid #e1e1e1;
 }
 .azul .verde {
@@ -25,6 +25,9 @@ body {
 
 .e {
     display: flex;
+	border: 1px solid #c92064;
+	background: linear-gradient(262deg, #c92064, #fd267d);
+	border-radius: 40px;
 }
 .azul .verde .avatar img {
 	width: 21px;
@@ -37,6 +40,31 @@ body {
 	padding: 6px 7px;
 	color: #fff;
 	font-size: 10px;
+}
+
+.d{
+	display: flex;
+	background: color  #752711;
+}
+
+.mala{
+	width: 21px;
+	height: 21px;
+	border: 1px solid #752711;
+	background: color  #752711;
+	border-radius: 40px;
+	padding: 2px;
+	margin-left: 75px;
+}
+
+.escudo{
+	width: 21px;
+	height: 21px;
+	border: 1px solid #752711;
+	background: color  #752711;
+	border-radius: 40px;
+	padding: 2px;
+	margin-left: 10px;
 }
 
 .azul .roxo {
@@ -65,13 +93,14 @@ body {
 	padding: 0 10px;
 	font-weight: 300;
 	font-size: 15px;
-	opacity: 0.8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style: oblique;
 }
 
 .cinza {
 	width: 100%;
 	display: flex;
-	padding: 20px 0;
+	padding-top: 50px;
 	align-items: center;
 	flex-direction: column;
 }
@@ -82,9 +111,10 @@ body {
 }
 
 .cinza .card .usuario {
-	width: 280px;
-	height: 500px;
+	width: 250px;
+	height: 380px;
 	object-fit: cover;
+	border-radius: 6px;
 }
 
 .cinza .card .A .profile {
@@ -119,7 +149,93 @@ body {
 
 .laranja {
     width: 100%;
-	height: 80px;
-	background-color: black;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background: linear-gradient( to top , #000000, #000000);
+}
 
+.laranja .return{
+	border: 1px solid white;
+	border-radius: 40px;
+	padding: 5px;
+}
+
+.laranja .x {
+	border: 1px solid #c62c1e;
+	border-radius: 40px;
+	padding: 9px;
+}
+
+.laranja .star {
+	border: 1px solid #30f3ef;
+	border-radius: 40px;
+	padding: 5px;
+}
+
+.laranja .heart {
+	border: 1px solid #2df187;
+	border-radius: 40px;
+	padding: 9px;
+}
+
+.laranja .lightning {
+	border: 1px solid #ba52f5;
+	border-radius: 40px;
+	padding: 5px;
+}
+
+.legenda {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 650px;
+	height: 40px;
+	margin-top: 60px;
+	font-size: 12px;
+}
+
+.legenda .ocultar{
+	color: black;
+	padding: 0px 9px 0px 9px;
+	border-radius: 20px;
+	background-color: gray;
+	border: 4px solid gray;
+}
+
+.legenda .não{
+	color: black;
+	display: flex;
+	align-items: center;
+	padding-left: 4px;
+}
+
+.legenda .curti{
+	color: black;
+	display: flex;
+	align-items: center;
+	padding-left: 4px;
+}
+
+.legenda .abrir_portal{
+	color: black;
+	display: flex;
+	align-items: center;
+	padding-left: 4px;
+}
+
+.legenda .fechar{
+	color: black;
+	display: flex;
+	align-items: center;
+	padding-left: 4px;
+}
+
+
+.legenda .super_like{
+	color: black;
+	display: flex;
+	align-items: center;
+	padding-left: 4px;
 }
